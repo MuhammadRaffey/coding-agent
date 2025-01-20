@@ -8,7 +8,10 @@ import { Groq } from "groq-sdk";
 
 const groq = new Groq({ apiKey: process.env["GROQ_API_KEY"] });
 
-const serviceAdapter = new GroqAdapter({groq, model: "mixtral-8x7b-32768" });
+const serviceAdapter = new GroqAdapter({
+  groq,
+  model: "llama-3.3-70b-versatile",
+});
 
 const runtime = new CopilotRuntime({
   remoteEndpoints: [

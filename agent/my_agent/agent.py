@@ -13,8 +13,8 @@ load_dotenv()
 
 # Configure LLM
 llm = ChatGroq(
-    temperature=0.1,
-    model_name="mixtral-8x7b-32768",
+    temperature=0.9,
+    model_name="llama-3.3-70b-versatile",
     groq_api_key=os.getenv("GROQ_API_KEY")
 )
 # Define State and Graph
