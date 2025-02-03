@@ -40,7 +40,7 @@
 ##### **3. Set Up the Agent**
 - Navigate to the agent directory:
    ```sh
-   cd agent
+   cd coding-agent
    ```
 - Install dependencies using Poetry:
    ```sh
