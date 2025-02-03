@@ -34,7 +34,7 @@
 ##### **2. Clone the Repository**
 - Clone the repository to your local machine:
    ```sh
-   git clone https://github.com/AbhinavTheDev/coding-agent.git
+   git clone https://github.com/MuhammadRaffey/coding-agent
    ```
 
 ##### **3. Set Up the Agent**
